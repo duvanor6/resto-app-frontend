@@ -1,0 +1,54 @@
+.btn {
+  border-radius: 44px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.mesa-cont {
+  min-width: 240px;
+  margin: 80px 0 40px 0;
+  padding: 20px 5px;
+  align-items: center;
+  align-content: center;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+}
+
+.img {
+  max-width: 200px;
+}
+
+.img-cont {
+  width: 200px;
+  background-image: url(../core/images/mesa.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 120px;
+  marginback: 2;
+  border: none;
+}
+
+.cont-mesa1 {
+  width: 140px;
+  border-radius: 15px;
+  position: static;
+}
+
+.rowMesa {
+  position: absolute;
+  width: 90%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.container {
+  width: 90%;
+}
+
+.pMesa {
+  margin-top: 5px;
+}
